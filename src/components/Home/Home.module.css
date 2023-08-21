@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poller+One&display=swap');
+
+.container {
+    background-image: url("https://img.freepik.com/free-photo/eggs-and-spoon-on-napkin_23-2147929992.jpg?size=626&ext=jpg&ga=GA1.2.716636661.1687772579&semt=ais");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 3rem);
+    margin-top: 3rem;
+}
+.header {
+        color: wheat;
+}
+.text {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        color: wheat;
+        font-size: 40px;
+        font-family: 'Dancing Script', cursive, 'Poller One', cursive;
+    }

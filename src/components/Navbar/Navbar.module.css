@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poller+One&display=swap');
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(237, 217, 187);
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items: center;
+    z-index: 2;
+  }
+
+.link {
+    color: rgb(117, 65, 65);
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-family: 'Dancing Script', cursive, 'Poller One', cursive;
+  }
+
+  .link:hover {
+    background-color: rgba(117, 65, 65, 0.2);
+    color: rgb(117, 65, 65);
+  }

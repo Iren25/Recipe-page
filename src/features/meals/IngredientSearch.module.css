@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poller+One&display=swap');
+
+.container {
+    background-color: rgb(244, 245, 226);
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive, 'Poller One', cursive;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.searchIngredient {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #f5bd63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin: 20px 0;
+}
+
+.mealsImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+    .inputContainer {
+        flex-direction: column;
+    }
+
+    .searchIngredient,
+    .btn {
+        margin-bottom: 10px;
+    }
+}
+.recipe {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
